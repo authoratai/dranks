@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>none</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>if 'none' clear values</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	
+	if (newValue === true) {
+		g_form.setValue('beer', false);
+	}
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2021-05-20 15:12:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0e3ddb602f58f010f0e69bacf699b698</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>if 'none' clear values</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Dranks" source="x_441625_dranks">768893e42fd4f010f0e69bacf699b6e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dranks">768893e42fd4f010f0e69bacf699b6e6</sys_scope>
+        <sys_update_name>sys_script_client_0e3ddb602f58f010f0e69bacf699b698</sys_update_name>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2021-05-20 15:22:30</sys_updated_on>
+        <table>x_441625_dranks_new_hire</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Dranks">768893e42fd4f010f0e69bacf699b6e6</application>
+        <file_path/>
+        <instance_id>06346385dbcf7b4042b321c4059619f2</instance_id>
+        <instance_name>dev90392</instance_name>
+        <name>sys_script_client_0e3ddb602f58f010f0e69bacf699b698</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;none&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;if 'none' clear values&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	
+	if (newValue === true) {
+		g_form.setValue('beer', false);
+	}
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;sean&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-05-20 15:12:29&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;0e3ddb602f58f010f0e69bacf699b698&lt;/sys_id&gt;&lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;&lt;sys_name&gt;if 'none' clear values&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Dranks" source="x_441625_dranks"&gt;768893e42fd4f010f0e69bacf699b6e6&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Dranks"&gt;768893e42fd4f010f0e69bacf699b6e6&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_0e3ddb602f58f010f0e69bacf699b698&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;sean&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-05-20 15:22:30&lt;/sys_updated_on&gt;&lt;table&gt;x_441625_dranks_new_hire&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1919950376</payload_hash>
+        <record_name>if 'none' clear values</record_name>
+        <reverted_from/>
+        <source>8b8893e42fd4f010f0e69bacf699b6e8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2021-05-20 15:22:30</sys_created_on>
+        <sys_id>c5df97242f58f010f0e69bacf699b6a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1798a5ef7620000001</sys_recorded_at>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2021-05-20 15:22:30</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>8ddf97243558f0103b3053d1785bbea8</update_guid>
+        <update_guid_history>8ddf97243558f0103b3053d1785bbea8:-1919950376,c79f1fa01f58f010ed52b107f47f32fc:1123016311,022f1fe00a58f010ae48f33a3371181e:-1759664253,c8ce57e0b658f010053656d44a28f8fb:-1332896266,b4aedfa0c758f010214880e5f7442189:1904518793,753e1fa0d358f01007cea0e0b03c3df3:-950365741,2e2e97a00458f0108dba11360a971a84:-882528875,061e57a07b58f010ca475d9960a1c042:1470796610,0efd57a03358f0103dfc7b00b79c9a3d:210046909,4dcd17a02a58f010958aa64249c89e8b:1813175502,228d13a03e58f01020ed3bfb77921854:-1477726192</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2021-05-20 15:23:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>05d7ce0787c6491b820f80d59d648e11</sys_id>
+        <sys_metadata>0e3ddb602f58f010f0e69bacf699b698</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>if 'none' clear values</sys_name>
+        <sys_package display_value="Dranks" source="x_441625_dranks">768893e42fd4f010f0e69bacf699b6e6</sys_package>
+        <sys_parent display_value="">a0a8172c2f18f010f0e69bacf699b65e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Dranks">768893e42fd4f010f0e69bacf699b6e6</sys_scope>
+        <sys_scope_delete display_value="">3c5e5a672d994fb2b34040324c0d1c24</sys_scope_delete>
+        <sys_update_name>sys_script_client_0e3ddb602f58f010f0e69bacf699b698</sys_update_name>
+        <sys_update_version display_value="sys_script_client_0e3ddb602f58f010f0e69bacf699b698">c5df97242f58f010f0e69bacf699b6a9</sys_update_version>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2021-05-20 15:23:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

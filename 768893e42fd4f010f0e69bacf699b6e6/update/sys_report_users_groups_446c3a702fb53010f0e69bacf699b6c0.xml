@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="Wine - All New Hires After Jan 6, 2020">cc6c3a702fb53010f0e69bacf699b6bf</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>josh</sys_created_by>
+        <sys_created_on>2021-08-03 21:00:16</sys_created_on>
+        <sys_id>446c3a702fb53010f0e69bacf699b6c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cc6c3a702fb53010f0e69bacf699b6bf</sys_name>
+        <sys_package display_value="Dranks" source="x_441625_dranks">768893e42fd4f010f0e69bacf699b6e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dranks">768893e42fd4f010f0e69bacf699b6e6</sys_scope>
+        <sys_update_name>sys_report_users_groups_446c3a702fb53010f0e69bacf699b6c0</sys_update_name>
+        <sys_updated_by>josh</sys_updated_by>
+        <sys_updated_on>2021-08-03 21:00:16</sys_updated_on>
+        <user_id display_value="Josh McMullen">97c0adcf2f52a010f0e69bacf699b601</user_id>
+    </sys_report_users_groups>
+</record_update>

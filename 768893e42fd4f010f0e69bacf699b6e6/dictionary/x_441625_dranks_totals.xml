@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b4c6ee762fa5b010f0e69bacf699b6f6" label="Totals" max_length="40" name="x_441625_dranks_totals" type="collection">
+        <element label="Date" mandatory="true" max_length="40" name="date" type="glide_date"/>
+        <element choice="1" display="true" label="Drank" mandatory="true" max_length="40" name="drank" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="* Beer" sequence="10" value="Beer"/>
+                <element inactive_on_update="false" label="Brandy/Cognac" sequence="20" value="Brandy/Cognac"/>
+                <element inactive_on_update="false" label="Gin" sequence="30" value="Gin"/>
+                <element inactive_on_update="false" label="Hard Seltzer" sequence="40" value="Hard Seltzer"/>
+                <element inactive_on_update="false" label="Malternative" sequence="45" value="Malternative"/>
+                <element inactive_on_update="false" label="Moonshine" sequence="60" value="Moonshine"/>
+                <element inactive_on_update="false" label="None" sequence="70" value="None"/>
+                <element inactive_on_update="false" label="Rum" sequence="80" value="Rum"/>
+                <element inactive_on_update="false" label="Soju" sequence="90" value="Soju"/>
+                <element inactive_on_update="false" label="Tequila" sequence="100" value="Tequila"/>
+                <element inactive_on_update="false" label="Vodka" sequence="110" value="Vodka"/>
+                <element inactive_on_update="false" label="* Whiskey" sequence="120" value="Whiskey"/>
+                <element inactive_on_update="false" label="* Wine" sequence="130" value="Wine"/>
+                <element inactive_on_update="false" label="WTF?" sequence="140" value="WTF?"/>
+            </choice>
+        </element>
+        <element label="New hire" mandatory="true" max_length="32" name="new_hire" reference="x_441625_dranks_new_hire" type="reference"/>
+        <element label="Statement" max_length="254" name="statement" type="string"/>
+        <index name="index">
+            <element name="new_hire"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist">
+    <sp_instance_vlist action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field>favorite_cocktail_beverage</display_field>
+        <field_list/>
+        <filter/>
+        <glyph/>
+        <id/>
+        <maximum_entries>300</maximum_entries>
+        <order>1</order>
+        <order_by>announcement_date</order_by>
+        <order_direction>desc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">e64719a997590510c8bcf97e6253af7d</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Simple List">5b255672cb03020000f8d856634c9c28</sp_widget>
+        <sys_class_name>sp_instance_vlist</sys_class_name>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2022-01-26 21:13:59</sys_created_on>
+        <sys_id>855719a997590510c8bcf97e6253afa7</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>List of Dranks</sys_name>
+        <sys_package display_value="Dranks" source="x_441625_dranks">768893e42fd4f010f0e69bacf699b6e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dranks">768893e42fd4f010f0e69bacf699b6e6</sys_scope>
+        <sys_update_name>sp_instance_vlist_855719a997590510c8bcf97e6253afa7</sys_update_name>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2022-01-26 21:23:01</sys_updated_on>
+        <table>x_441625_dranks_new_hire</table>
+        <title>List of Dranks</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"always_show": {
+		"value": "",
+		"displayValue": ""
+	},
+	"panel_body_height": {
+		"value": "",
+		"displayValue": ""
+	},
+	"image_field": {
+		"value": "",
+		"displayValue": ""
+	},
+	"secondary_fields": {
+		"value": "announcement_date",
+		"displayValue": "announcement_date"
+	},
+	"rounded_images": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"list_page": {
+		"value": "",
+		"displayValue": ""
+	},
+	"hide_footer": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"view": {
+		"value": "",
+		"displayValue": ""
+	},
+	"disable_record_watcher": {
+		"value": "",
+		"displayValue": ""
+	},
+	"filter_acls": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]></widget_parameters>
+    </sp_instance_vlist>
+    <sys_translated_text action="delete_multiple" query="documentkey=855719a997590510c8bcf97e6253afa7"/>
+</record_update>

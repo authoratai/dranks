@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <css>.top {
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+}
+
+body {
+  //pointer-events:none !important;
+}
+
+.print_hide {
+  display: none !important;
+}
+
+iframe {
+  pointer-events:none !important;
+  height: 650px;
+  width: 100%;
+  border: none;
+  overflow: hidden;
+}
+
+.panel {
+  pointer-events:none !important;
+}
+
+.col-md-4 {
+  height: 450px;  
+}
+
+.header {
+  width: 100%;
+  height: 30px;
+  padding: 5px;
+}
+
+.header-left {
+  height: 25px;
+  width: 85%;
+  float: left;
+}  
+
+.header-right {
+  height: 25px;
+  width: 14%;
+  float: left;
+  text-align: right;
+}
+
+.header-link {
+  color: #E8E8E8;
+}
+
+.header-link:hover {
+  color: #00ff00;
+}
+@media print
+{
+  iframe {display:none;}
+}
+</css>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>dranks</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>true</public>
+        <roles/>
+        <seo_script/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2021-07-28 18:48:33</sys_created_on>
+        <sys_id>90a46f722fa9b010f0e69bacf699b63b</sys_id>
+        <sys_mod_count>69</sys_mod_count>
+        <sys_name>dranks</sys_name>
+        <sys_package display_value="Dranks" source="x_441625_dranks">768893e42fd4f010f0e69bacf699b6e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dranks">768893e42fd4f010f0e69bacf699b6e6</sys_scope>
+        <sys_update_name>sp_page_90a46f722fa9b010f0e69bacf699b63b</sys_update_name>
+        <sys_updated_by>josh</sys_updated_by>
+        <sys_updated_on>2022-05-20 19:58:35</sys_updated_on>
+        <title>Dranks</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=90a46f722fa9b010f0e69bacf699b63b"/>
+</record_update>

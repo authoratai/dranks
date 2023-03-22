@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2021-07-28 14:18:27</sys_created_on>
+        <sys_id>abd626f62fa5b010f0e69bacf699b680</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_441625_dranks_totals.x_441625_dranks.totals_user</sys_name>
+        <sys_package display_value="Dranks" source="x_441625_dranks">768893e42fd4f010f0e69bacf699b6e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dranks">768893e42fd4f010f0e69bacf699b6e6</sys_scope>
+        <sys_security_acl display_value="x_441625_dranks_totals">67d626f62fa5b010f0e69bacf699b67c</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_abd626f62fa5b010f0e69bacf699b680</sys_update_name>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2021-07-28 14:18:27</sys_updated_on>
+        <sys_user_role display_value="x_441625_dranks.totals_user" name="x_441625_dranks.totals_user">17d6aab62fa5b010f0e69bacf699b638</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

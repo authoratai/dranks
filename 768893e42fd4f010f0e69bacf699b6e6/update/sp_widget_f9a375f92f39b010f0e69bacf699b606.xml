@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function($scope) {
+	/* widget controller */
+	var c = this;
+	$scope.updateSSN = function() {
+		var val = $scope.ssn.replace(/\D/g, '');
+		var newVal = '';
+		if ((val.length > 2) && (val.length < 5)) {
+			newVal += val.substr(0, 3) + '-';
+			val = val.substr(3);
+		}
+		if (val.length > 4) {
+			newVal += val.substr(0, 3) + '-';
+			newVal += val.substr(3, 2) + '-';
+			val = val.substr(5);
+		}
+		newVal += val;
+		$scope.ssn = newVal.substring(0, 11);
+	}
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.toolTip {
+ background-color: #e0db89; 
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>test</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>test</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+	
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>josh</sys_created_by>
+        <sys_created_on>2021-08-06 18:16:39</sys_created_on>
+        <sys_id>f9a375f92f39b010f0e69bacf699b606</sys_id>
+        <sys_mod_count>31</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="Dranks" source="x_441625_dranks">768893e42fd4f010f0e69bacf699b6e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dranks">768893e42fd4f010f0e69bacf699b6e6</sys_scope>
+        <sys_update_name>sp_widget_f9a375f92f39b010f0e69bacf699b606</sys_update_name>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2021-08-12 17:01:06</sys_updated_on>
+        <template><![CDATA[<div>
+  <br /><br /><br /><br /><br />
+  <input ng-model="ssn" ng-change="updateSSN()">&nbsp;
+  <span style="color:#5DADE2;font-weight:bold" uib-tooltip="Click the Add Person button if there are any other people in your household that are applying for assistance or are a parent of a child under 18 that is applying for assistance." tooltip-class="toolTip">&#x1F6C8;</span>
+</div>
+<p></p>
+<div>
+  
+</div>]]></template>
+    </sp_widget>
+</record_update>

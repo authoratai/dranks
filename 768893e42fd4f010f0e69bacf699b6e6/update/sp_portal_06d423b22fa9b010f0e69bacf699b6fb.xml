@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
+    <sp_portal action="INSERT_OR_UPDATE">
+        <css_variables/>
+        <default>false</default>
+        <enable_ais>false</enable_ais>
+        <enable_favorites>false</enable_favorites>
+        <hide_portal_name>false</hide_portal_name>
+        <homepage display_value="dranks">90a46f722fa9b010f0e69bacf699b63b</homepage>
+        <icon/>
+        <kb_knowledge_base/>
+        <kb_knowledge_page/>
+        <login_page/>
+        <logo/>
+        <notfound_page/>
+        <quick_start_config/>
+        <sc_catalog/>
+        <sc_catalog_page/>
+        <sc_category_page/>
+        <search_application/>
+        <search_results_configuration/>
+        <sp_chat_queue/>
+        <sp_rectangle_menu/>
+        <sqanda_knowledge_base/>
+        <sys_class_name>sp_portal</sys_class_name>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2021-07-28 18:49:34</sys_created_on>
+        <sys_id>06d423b22fa9b010f0e69bacf699b6fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dranks</sys_name>
+        <sys_package display_value="Dranks" source="x_441625_dranks">768893e42fd4f010f0e69bacf699b6e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dranks">768893e42fd4f010f0e69bacf699b6e6</sys_scope>
+        <sys_update_name>sp_portal_06d423b22fa9b010f0e69bacf699b6fb</sys_update_name>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2021-07-28 18:49:34</sys_updated_on>
+        <theme/>
+        <title>Dranks</title>
+        <ts_index_group/>
+        <url_suffix>dranks</url_suffix>
+    </sp_portal>
+    <sys_translated_text action="delete_multiple" query="documentkey=06d423b22fa9b010f0e69bacf699b6fb"/>
+</record_update>

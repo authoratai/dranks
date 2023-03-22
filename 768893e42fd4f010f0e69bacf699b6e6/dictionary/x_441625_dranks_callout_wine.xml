@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5e736cd72f2df010f0e69bacf699b6f5" label="Wine" max_length="40" name="x_441625_dranks_callout_wine" type="collection">
+        <element label="Date" mandatory="true" max_length="40" name="date" type="glide_date"/>
+        <element label="New hire" mandatory="true" max_length="32" name="new_hire" reference="x_441625_dranks_new_hire" type="reference"/>
+        <element label="Statement" max_length="254" name="statement" type="string"/>
+        <element choice="1" choice_field="name" label="Wine" mandatory="true" max_length="40" name="wine" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Dessert" value="Dessert"/>
+                <element inactive_on_update="false" label="White" value="White"/>
+                <element inactive_on_update="false" label="Sparkling" sequence="10" value="Sparkling"/>
+                <element inactive_on_update="false" label="Red" sequence="20" value="Red"/>
+                <element inactive_on_update="false" label="Rosé" sequence="40" value="Rosé"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="new_hire"/>
+        </index>
+    </element>
+</database>

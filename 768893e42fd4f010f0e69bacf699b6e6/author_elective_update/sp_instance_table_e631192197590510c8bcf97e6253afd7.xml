@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <field_list>favorite_cocktail_beverage,category,announcement_date</field_list>
+        <filter/>
+        <glyph/>
+        <id/>
+        <maximum_entries>20</maximum_entries>
+        <order>1</order>
+        <order_by>announcement_date</order_by>
+        <order_direction>desc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">e23567b22fa9b010f0e69bacf699b6f0</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>josh</sys_created_by>
+        <sys_created_on>2022-01-26 20:47:20</sys_created_on>
+        <sys_id>e631192197590510c8bcf97e6253afd7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Dranks" source="x_441625_dranks">768893e42fd4f010f0e69bacf699b6e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dranks">768893e42fd4f010f0e69bacf699b6e6</sys_scope>
+        <sys_update_name>sp_instance_table_e631192197590510c8bcf97e6253afd7</sys_update_name>
+        <sys_updated_by>josh</sys_updated_by>
+        <sys_updated_on>2022-01-26 20:49:01</sys_updated_on>
+        <table>x_441625_dranks_new_hire</table>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="DELETE" query="documentkey=e631192197590510c8bcf97e6253afd7"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Dranks">768893e42fd4f010f0e69bacf699b6e6</application>
+        <file_path/>
+        <instance_id>06346385dbcf7b4042b321c4059619f2</instance_id>
+        <instance_name>dev90392</instance_name>
+        <name>sp_instance_table_e631192197590510c8bcf97e6253afd7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table"><sp_instance_table action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><display_field/><field_list>favorite_cocktail_beverage,category,announcement_date</field_list><filter/><glyph/><id/><maximum_entries>20</maximum_entries><order>1</order><order_by>announcement_date</order_by><order_direction>desc</order_direction><roles/><short_description/><size>md</size><sp_column display_value="1">e23567b22fa9b010f0e69bacf699b6f0</sp_column><sp_page/><sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget><sys_class_name>sp_instance_table</sys_class_name><sys_created_by>josh</sys_created_by><sys_created_on>2022-01-26 20:47:20</sys_created_on><sys_id>e631192197590510c8bcf97e6253afd7</sys_id><sys_mod_count>2</sys_mod_count><sys_name/><sys_package display_value="Dranks" source="x_441625_dranks">768893e42fd4f010f0e69bacf699b6e6</sys_package><sys_policy/><sys_scope display_value="Dranks">768893e42fd4f010f0e69bacf699b6e6</sys_scope><sys_update_name>sp_instance_table_e631192197590510c8bcf97e6253afd7</sys_update_name><sys_updated_by>josh</sys_updated_by><sys_updated_on>2022-01-26 20:49:01</sys_updated_on><table>x_441625_dranks_new_hire</table><title/><url/><widget_parameters/></sp_instance_table><sys_translated_text action="delete_multiple" query="documentkey=e631192197590510c8bcf97e6253afd7"/></record_update>]]></payload>
+        <payload_hash>930201016</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>8b8893e42fd4f010f0e69bacf699b6e8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>josh</sys_created_by>
+        <sys_created_on>2022-01-26 20:49:01</sys_created_on>
+        <sys_id>9391156197590510c8bcf97e6253af0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e98261cc30000001</sys_recorded_at>
+        <sys_updated_by>josh</sys_updated_by>
+        <sys_updated_on>2022-01-26 20:49:01</sys_updated_on>
+        <type>Instance with Table</type>
+        <update_guid>5b911561375905102652af55a9d30b0c</update_guid>
+        <update_guid_history>5b911561375905102652af55a9d30b0c:930201016,3741592198590510c86f3737734f8a4b:-796006347,2a31192155590510b220e840492225da:612917230</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">71121d6197590510c8bcf97e6253afa2</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>josh</sys_created_by>
+        <sys_created_on>2022-01-26 20:51:05</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_table">sp_instance_table</sys_db_object>
+        <sys_id>0ceb9fe4885e41788468093ce54b4cc1</sys_id>
+        <sys_metadata>e631192197590510c8bcf97e6253afd7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Dranks" source="x_441625_dranks">768893e42fd4f010f0e69bacf699b6e6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Dranks">768893e42fd4f010f0e69bacf699b6e6</sys_scope>
+        <sys_scope_delete display_value="">3c5e5a672d994fb2b34040324c0d1c24</sys_scope_delete>
+        <sys_update_name>sp_instance_table_e631192197590510c8bcf97e6253afd7</sys_update_name>
+        <sys_update_version display_value="sp_instance_table_e631192197590510c8bcf97e6253afd7">9391156197590510c8bcf97e6253af0d</sys_update_version>
+        <sys_updated_by>josh</sys_updated_by>
+        <sys_updated_on>2022-01-26 20:51:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

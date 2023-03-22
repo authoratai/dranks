@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">40ee502997150510c8bcf97e6253afef</sp_column>
+        <sp_widget display_value="Full Height iframe">527093f31b73a8d89f59a687b04bcbbf</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>josh</sys_created_by>
+        <sys_created_on>2021-07-29 16:01:02</sys_created_on>
+        <sys_id>c0f7485b2fa9f010f0e69bacf699b611</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Dranks" source="x_441625_dranks">768893e42fd4f010f0e69bacf699b6e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dranks">768893e42fd4f010f0e69bacf699b6e6</sys_scope>
+        <sys_update_name>sp_instance_c0f7485b2fa9f010f0e69bacf699b611</sys_update_name>
+        <sys_updated_by>josh</sys_updated_by>
+        <sys_updated_on>2022-05-20 19:53:31</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"src": {
+		"value": "https://dev90392.service-now.com/sys_report_display.do?sysparm_report_id=3f64e3722fa9b010f0e69bacf699b63a",
+		"displayValue": "https://dev90392.service-now.com/sys_report_display.do?sysparm_report_id=3f64e3722fa9b010f0e69bacf699b63a"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=c0f7485b2fa9f010f0e69bacf699b611"/>
+</record_update>

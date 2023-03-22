@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="585168172f2df010f0e69bacf699b626" label="Whiskey" max_length="40" name="x_441625_dranks_callout_whiskey" type="collection">
+        <element label="Date" mandatory="true" max_length="40" name="date" type="glide_date"/>
+        <element label="New hire" mandatory="true" max_length="32" name="new_hire" reference="x_441625_dranks_new_hire" type="reference"/>
+        <element label="Statement" max_length="254" name="statement" type="string"/>
+        <element choice="1" label="Whiskey" mandatory="true" max_length="40" name="whiskey" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Bourbon" sequence="10" value="Bourbon"/>
+                <element inactive_on_update="false" label="Canadian" sequence="20" value="Canadian"/>
+                <element inactive_on_update="false" label="Irish" sequence="30" value="Irish"/>
+                <element inactive_on_update="false" label="Rye" sequence="40" value="Rye"/>
+                <element inactive_on_update="false" label="Scotch" sequence="50" value="Scotch"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="new_hire"/>
+        </index>
+    </element>
+</database>

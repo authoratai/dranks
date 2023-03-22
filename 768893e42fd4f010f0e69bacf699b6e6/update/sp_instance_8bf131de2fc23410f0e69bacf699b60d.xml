@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">cabfd86997150510c8bcf97e6253afad</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2021-08-20 17:41:50</sys_created_on>
+        <sys_id>8bf131de2fc23410f0e69bacf699b60d</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Dranks" source="x_441625_dranks">768893e42fd4f010f0e69bacf699b6e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dranks">768893e42fd4f010f0e69bacf699b6e6</sys_scope>
+        <sys_update_name>sp_instance_8bf131de2fc23410f0e69bacf699b60d</sys_update_name>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2022-01-26 17:11:14</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<div class=\"header\"><div class=\"header-left\"><p>&nbsp;</p></div><div class=\"header-right\"><a class=\"header-link\" href=\"https://www.instagram.com/gooddranks/\" target=\"_blank\"><i class=\"fa fa-instagram\"></i></a></div></div>",
+		"displayValue": "<div class=\"header\">\n<div class=\"header-left\">\n<p>&nbsp;</p>\n</div>\n<div class=\"header-right\"><a class=\"header-link\" href=\"https://www.instagram.com/gooddranks/\" target=\"_blank\"><i class=\"fa fa-instagram\"></i></a>\n</div>\n</div>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=8bf131de2fc23410f0e69bacf699b60d"/>
+</record_update>

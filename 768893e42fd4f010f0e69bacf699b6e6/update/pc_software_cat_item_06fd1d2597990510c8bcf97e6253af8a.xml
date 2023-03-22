@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="pc_software_cat_item">
+    <pc_software_cat_item action="INSERT_OR_UPDATE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <additional_review>false</additional_review>
+        <auto_created>true</auto_created>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category display_value="Office">109cdff8c6112276003b17991a09ad65</category>
+        <checked_out/>
+        <cost>0</cost>
+        <create_universal_request>false</create_universal_request>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <features/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model display_value="Microsoft Office 365 Enterprise E5">d3410c5a1ce80300964f3c3ef305e35a</model>
+        <name>Microsoft Office 365 Enterprise E1</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner/>
+        <picture/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=06fd1d2597990510c8bcf97e6253af8a&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <product_id/>
+        <published_ref/>
+        <recurring_frequency/>
+        <request_method/>
+        <roles>snc_internal</roles>
+        <sc_catalogs>e0d08b13c3330100c8b837659bba8fb4</sc_catalogs>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template/>
+        <short_description/>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <specs/>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>pc_software_cat_item</sys_class_name>
+        <sys_created_by>josh</sys_created_by>
+        <sys_created_on>2022-01-26 21:43:00</sys_created_on>
+        <sys_id>06fd1d2597990510c8bcf97e6253af8a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Microsoft Office 365 Enterprise E1</sys_name>
+        <sys_package display_value="Dranks" source="x_441625_dranks">768893e42fd4f010f0e69bacf699b6e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dranks">768893e42fd4f010f0e69bacf699b6e6</sys_scope>
+        <sys_update_name>pc_software_cat_item_06fd1d2597990510c8bcf97e6253af8a</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-02-04 17:22:22</sys_updated_on>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <upc/>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor display_value="Microsoft">0e8b8e650a0a0b3b004f285ffbb1a4fc</vendor>
+        <vendor_catalog_item/>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </pc_software_cat_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=06fd1d2597990510c8bcf97e6253af8a"/>
+    <fx_price action="delete_multiple" query="id=06fd1d2597990510c8bcf97e6253af8a"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>06fd1d2597990510c8bcf97e6253af8a</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>josh</sys_created_by>
+        <sys_created_on>2022-01-26 21:43:00</sys_created_on>
+        <sys_id>cefd1d2597990510c8bcf97e6253af8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>josh</sys_updated_by>
+        <sys_updated_on>2022-01-26 21:43:00</sys_updated_on>
+        <table>pc_software_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_price</field>
+        <id>06fd1d2597990510c8bcf97e6253af8a</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2022-01-26 21:43:00</sys_created_on>
+        <sys_id>02fd1d2597990510c8bcf97e6253afa5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2022-01-26 21:43:00</sys_updated_on>
+        <table>pc_software_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access/>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <extension_model/>
+        <is_extendable>false</is_extendable>
+        <label>Imp Tmpl X 441625 Dranks New Hire</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>u_imp_tmpl_x_441625_dranks_new_hire</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="Import Set Row" name="sys_import_set_row">825021841b1200107f81da49cc4bcb2a</super_class>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2021-07-28 13:48:58</sys_created_on>
+        <sys_id>671022322fa5b010f0e69bacf699b689</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Imp Tmpl X 441625 Dranks New Hire</sys_name>
+        <sys_package display_value="Dranks" source="x_441625_dranks">768893e42fd4f010f0e69bacf699b6e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dranks">768893e42fd4f010f0e69bacf699b6e6</sys_scope>
+        <sys_update_name>sys_db_object_671022322fa5b010f0e69bacf699b689</sys_update_name>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2021-07-28 13:48:58</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Dranks">768893e42fd4f010f0e69bacf699b6e6</application>
+        <file_path/>
+        <instance_id>06346385dbcf7b4042b321c4059619f2</instance_id>
+        <instance_name>dev90392</instance_name>
+        <name>sys_db_object_671022322fa5b010f0e69bacf699b689</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access/><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>Imp Tmpl X 441625 Dranks New Hire</label><live_feed_enabled>false</live_feed_enabled><name>u_imp_tmpl_x_441625_dranks_new_hire</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class display_value="Import Set Row" name="sys_import_set_row">825021841b1200107f81da49cc4bcb2a</super_class><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>sean</sys_created_by><sys_created_on>2021-07-28 13:48:58</sys_created_on><sys_id>671022322fa5b010f0e69bacf699b689</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Imp Tmpl X 441625 Dranks New Hire</sys_name><sys_package display_value="Dranks" source="x_441625_dranks">768893e42fd4f010f0e69bacf699b6e6</sys_package><sys_policy/><sys_scope display_value="Dranks">768893e42fd4f010f0e69bacf699b6e6</sys_scope><sys_update_name>sys_db_object_671022322fa5b010f0e69bacf699b689</sys_update_name><sys_updated_by>sean</sys_updated_by><sys_updated_on>2021-07-28 13:48:58</sys_updated_on><update_access>false</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>629589755</payload_hash>
+        <record_name>Imp Tmpl X 441625 Dranks New Hire</record_name>
+        <reverted_from/>
+        <source>8b8893e42fd4f010f0e69bacf699b6e8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2021-07-28 13:48:58</sys_created_on>
+        <sys_id>7b1022322fa5b010f0e69bacf699b69c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17aed6023c70000001</sys_recorded_at>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2021-07-28 13:48:58</sys_updated_on>
+        <type>Table</type>
+        <update_guid>f3102232b9a5b01033763b89a371c59c</update_guid>
+        <update_guid_history>f3102232b9a5b01033763b89a371c59c:629589755</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2021-07-28 14:15:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>022d9774be4549408032637b59261f90</sys_id>
+        <sys_metadata>671022322fa5b010f0e69bacf699b689</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Imp Tmpl X 441625 Dranks New Hire</sys_name>
+        <sys_package display_value="Dranks" source="x_441625_dranks">768893e42fd4f010f0e69bacf699b6e6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Dranks">768893e42fd4f010f0e69bacf699b6e6</sys_scope>
+        <sys_scope_delete display_value="">3c5e5a672d994fb2b34040324c0d1c24</sys_scope_delete>
+        <sys_update_name>sys_db_object_671022322fa5b010f0e69bacf699b689</sys_update_name>
+        <sys_update_version display_value="sys_db_object_671022322fa5b010f0e69bacf699b689">7b1022322fa5b010f0e69bacf699b69c</sys_update_version>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2021-07-28 14:15:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

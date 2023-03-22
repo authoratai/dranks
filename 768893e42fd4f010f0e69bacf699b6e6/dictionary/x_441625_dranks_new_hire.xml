@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="340ed27e2f65b010f0e69bacf699b63c" label="New Hire" max_length="40" name="x_441625_dranks_new_hire" type="collection">
+        <element default="javascript: new GlideDate();" label="Announcement date" max_length="40" name="announcement_date" type="glide_date"/>
+        <element label="Beer Callout" max_length="4000" name="beer" reference="x_441625_dranks_beer" type="glide_list"/>
+        <element attributes="can_group=true" choice="1" label="Category" max_length="4000" name="category" reference="x_441625_dranks_choices" type="glide_list">
+            <choice/>
+        </element>
+        <element choice="1" label="Dranks?" max_length="40" name="dranks" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Dranks" sequence="10" value="dranks"/>
+                <element inactive_on_update="false" label="No Dranks" sequence="20" value="no_dranks"/>
+                <element inactive_on_update="false" label="No Clue" sequence="30" value="no_clue"/>
+            </choice>
+        </element>
+        <element label="Favorite cocktail/beverage?" max_length="254" name="favorite_cocktail_beverage" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" display="true" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="Whiskey Callout" max_length="4000" name="whiskey" reference="x_441625_dranks_whiskey" type="glide_list"/>
+        <element label="Wine Callout" max_length="4000" name="wine" reference="x_441625_dranks_wine" type="glide_list"/>
+    </element>
+</database>

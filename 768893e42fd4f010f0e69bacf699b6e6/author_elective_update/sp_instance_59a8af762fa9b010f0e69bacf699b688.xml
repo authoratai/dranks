@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>3</order>
+        <roles>public</roles>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">e23567b22fa9b010f0e69bacf699b6f0</sp_column>
+        <sp_widget display_value="Report">e41aa2d29f0222008252baac757fcfce</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2021-07-28 19:05:50</sys_created_on>
+        <sys_id>59a8af762fa9b010f0e69bacf699b688</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Dranks" source="x_441625_dranks">768893e42fd4f010f0e69bacf699b6e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dranks">768893e42fd4f010f0e69bacf699b6e6</sys_scope>
+        <sys_update_name>sp_instance_59a8af762fa9b010f0e69bacf699b688</sys_update_name>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2021-07-28 20:52:53</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"report_id": {
+		"value": "3f64e3722fa9b010f0e69bacf699b63a",
+		"displayValue": "Dranks - All New Hires After Jan 6, 2020"
+	},
+	"show_title": {
+		"value": "true",
+		"displayValue": "true"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=59a8af762fa9b010f0e69bacf699b688"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Dranks">768893e42fd4f010f0e69bacf699b6e6</application>
+        <file_path/>
+        <instance_id>06346385dbcf7b4042b321c4059619f2</instance_id>
+        <instance_name>dev90392</instance_name>
+        <name>sp_instance_59a8af762fa9b010f0e69bacf699b688</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;3&lt;/order&gt;&lt;roles&gt;public&lt;/roles&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;e23567b22fa9b010f0e69bacf699b6f0&lt;/sp_column&gt;&lt;sp_widget display_value="Report"&gt;e41aa2d29f0222008252baac757fcfce&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;sean&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-07-28 19:05:50&lt;/sys_created_on&gt;&lt;sys_id&gt;59a8af762fa9b010f0e69bacf699b688&lt;/sys_id&gt;&lt;sys_mod_count&gt;12&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Dranks" source="x_441625_dranks"&gt;768893e42fd4f010f0e69bacf699b6e6&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Dranks"&gt;768893e42fd4f010f0e69bacf699b6e6&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_59a8af762fa9b010f0e69bacf699b688&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;sean&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-07-28 20:52:53&lt;/sys_updated_on&gt;&lt;title/&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"report_id": {
+		"value": "3f64e3722fa9b010f0e69bacf699b63a",
+		"displayValue": "Dranks - All New Hires After Jan 6, 2020"
+	},
+	"show_title": {
+		"value": "true",
+		"displayValue": "true"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=59a8af762fa9b010f0e69bacf699b688"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1923704835</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>8b8893e42fd4f010f0e69bacf699b6e8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2021-07-28 20:52:53</sys_created_on>
+        <sys_id>6121088f2fe9b010f0e69bacf699b653</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17aeee4400f0000001</sys_recorded_at>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2021-07-28 20:52:53</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>2921088f12e9b01015ecdecf8e94b852</update_guid>
+        <update_guid_history>2921088f12e9b01015ecdecf8e94b852:1923704835,5021c48f06e9b01040fccae55f93515c:1581281956,7011008f9ce9b0104a97b009519a8620:1238859077,fcecb7bac5e9b010f89765ceb899d7f3:1581281956,ca3b3f3a07e9b0104f628e7e6b279124:1238859077,aeea733aeae9b010740c993961f051aa:668433951,17353bb2d6e9b010912699689481930d:1238859077,ce4d2bba99a9b010e691a406782ac8d4:668433951,c8abef3a90a9b010bc9988e12cae1e34:-2017824989,568923b6a2a9b0108260706f59e17d2a:1498153423,2cb8ef7617a9b010c6f755db15bac475:756679054,5ba8ef7622a9b0100ddea535570a6d40:-445296932,55a8af7623a9b0100f62fdbfae84178a:1813045453</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">02e7489b2fa9f010f0e69bacf699b68b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>josh</sys_created_by>
+        <sys_created_on>2021-07-29 16:00:55</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>0a50416ff1674aa082816052ec256240</sys_id>
+        <sys_metadata>59a8af762fa9b010f0e69bacf699b688</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Dranks" source="x_441625_dranks">768893e42fd4f010f0e69bacf699b6e6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Dranks">768893e42fd4f010f0e69bacf699b6e6</sys_scope>
+        <sys_scope_delete display_value="">3c5e5a672d994fb2b34040324c0d1c24</sys_scope_delete>
+        <sys_update_name>sp_instance_59a8af762fa9b010f0e69bacf699b688</sys_update_name>
+        <sys_update_version display_value="sp_instance_59a8af762fa9b010f0e69bacf699b688">6121088f2fe9b010f0e69bacf699b653</sys_update_version>
+        <sys_updated_by>josh</sys_updated_by>
+        <sys_updated_on>2021-07-29 16:00:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

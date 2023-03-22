@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="System Import Sets">import_sets</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Imp Tmpl X 441625 Dranks New Hire</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>u_imp_tmpl_x_441625_dranks_new_hire</name>
+        <order>1100</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2021-07-28 13:49:00</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>902062322fa5b010f0e69bacf699b61a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Imp Tmpl X 441625 Dranks New Hire</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Dranks" source="x_441625_dranks">768893e42fd4f010f0e69bacf699b6e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dranks">768893e42fd4f010f0e69bacf699b6e6</sys_scope>
+        <sys_update_name>sys_app_module_902062322fa5b010f0e69bacf699b61a</sys_update_name>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2021-07-28 13:49:00</sys_updated_on>
+        <timeline_page/>
+        <title>Imp Tmpl X 441625 Dranks New Hire</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Dranks">768893e42fd4f010f0e69bacf699b6e6</application>
+        <file_path/>
+        <instance_id>06346385dbcf7b4042b321c4059619f2</instance_id>
+        <instance_name>dev90392</instance_name>
+        <name>sys_app_module_902062322fa5b010f0e69bacf699b61a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="System Import Sets">import_sets</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Imp Tmpl X 441625 Dranks New Hire</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>u_imp_tmpl_x_441625_dranks_new_hire</name><order>1100</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>sean</sys_created_by><sys_created_on>2021-07-28 13:49:00</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>902062322fa5b010f0e69bacf699b61a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Imp Tmpl X 441625 Dranks New Hire</sys_name><sys_overrides/><sys_package display_value="Dranks" source="x_441625_dranks">768893e42fd4f010f0e69bacf699b6e6</sys_package><sys_policy/><sys_scope display_value="Dranks">768893e42fd4f010f0e69bacf699b6e6</sys_scope><sys_update_name>sys_app_module_902062322fa5b010f0e69bacf699b61a</sys_update_name><sys_updated_by>sean</sys_updated_by><sys_updated_on>2021-07-28 13:49:00</sys_updated_on><timeline_page/><title>Imp Tmpl X 441625 Dranks New Hire</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1356034294</payload_hash>
+        <record_name>Imp Tmpl X 441625 Dranks New Hire</record_name>
+        <reverted_from/>
+        <source>8b8893e42fd4f010f0e69bacf699b6e8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2021-07-28 13:49:00</sys_created_on>
+        <sys_id>dc2062322fa5b010f0e69bacf699b61b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17aed602b000000001</sys_recorded_at>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2021-07-28 13:49:00</sys_updated_on>
+        <type>Module</type>
+        <update_guid>d420623272a5b010b2eb49d9df826c1b</update_guid>
+        <update_guid_history>d420623272a5b010b2eb49d9df826c1b:1356034294</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Imp Tmpl X 441625 Dranks New Hire">e4466ab62fa5b010f0e69bacf699b69c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2021-07-28 14:15:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>c34f9f58397b488b9b3e10c3ebbeba61</sys_id>
+        <sys_metadata>902062322fa5b010f0e69bacf699b61a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Imp Tmpl X 441625 Dranks New Hire</sys_name>
+        <sys_package display_value="Dranks" source="x_441625_dranks">768893e42fd4f010f0e69bacf699b6e6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Dranks">768893e42fd4f010f0e69bacf699b6e6</sys_scope>
+        <sys_scope_delete display_value="">3c5e5a672d994fb2b34040324c0d1c24</sys_scope_delete>
+        <sys_update_name>sys_app_module_902062322fa5b010f0e69bacf699b61a</sys_update_name>
+        <sys_update_version display_value="sys_app_module_902062322fa5b010f0e69bacf699b61a">dc2062322fa5b010f0e69bacf699b61b</sys_update_version>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2021-07-28 14:15:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

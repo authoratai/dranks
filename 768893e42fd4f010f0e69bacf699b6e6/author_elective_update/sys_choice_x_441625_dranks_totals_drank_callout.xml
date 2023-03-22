@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="drank_callout" table="x_441625_dranks_totals" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>drank_callout</element>
+            <name>x_441625_dranks_totals</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>josh</sys_created_by>
+            <sys_created_on>2021-08-03 16:56:30</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>drank_callout</sys_name>
+            <sys_package display_value="Dranks" source="x_441625_dranks">768893e42fd4f010f0e69bacf699b6e6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Dranks">768893e42fd4f010f0e69bacf699b6e6</sys_scope>
+            <sys_update_name>sys_choice_x_441625_dranks_totals_drank_callout</sys_update_name>
+            <sys_updated_by>josh</sys_updated_by>
+            <sys_updated_on>2021-08-03 16:56:30</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Beer</dependent_value>
+            <element>drank_callout</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Ale</label>
+            <language>en</language>
+            <name>x_441625_dranks_totals</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>josh</sys_created_by>
+            <sys_created_on>2021-08-03 17:03:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>josh</sys_updated_by>
+            <sys_updated_on>2021-08-03 17:04:00</sys_updated_on>
+            <value>ale</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Beer</dependent_value>
+            <element>drank_callout</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Amber</label>
+            <language>en</language>
+            <name>x_441625_dranks_totals</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>josh</sys_created_by>
+            <sys_created_on>2021-08-03 17:04:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>josh</sys_updated_by>
+            <sys_updated_on>2021-08-03 17:04:56</sys_updated_on>
+            <value>amber</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Whiskey</dependent_value>
+            <element>drank_callout</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Bourbon</label>
+            <language>en</language>
+            <name>x_441625_dranks_totals</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>josh</sys_created_by>
+            <sys_created_on>2021-08-03 18:51:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>josh</sys_updated_by>
+            <sys_updated_on>2021-08-03 18:51:59</sys_updated_on>
+            <value>bourbon</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Whiskey</dependent_value>
+            <element>drank_callout</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Canadian</label>
+            <language>en</language>
+            <name>x_441625_dranks_totals</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>josh</sys_created_by>
+            <sys_created_on>2021-08-03 18:52:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>josh</sys_updated_by>
+            <sys_updated_on>2021-08-03 18:52:18</sys_updated_on>
+            <value>canadian</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Beer</dependent_value>
+            <element>drank_callout</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Hefeweizen</label>
+            <language>en</language>
+            <name>x_441625_dranks_totals</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>josh</sys_created_by>
+            <sys_created_on>2021-08-03 17:08:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>josh</sys_updated_by>
+            <sys_updated_on>2021-08-03 17:08:31</sys_updated_on>
+            <value>hefe</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Beer</dependent_value>
+            <element>drank_callout</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IPA</label>
+            <language>en</language>
+            <name>x_441625_dranks_totals</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>josh</sys_created_by>
+            <sys_created_on>2021-08-03 16:58:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>josh</sys_updated_by>
+            <sys_updated_on>2021-08-03 16:58:12</sys_updated_on>
+            <value>ipa</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Whiskey</dependent_value>
+            <element>drank_callout</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Irish</label>
+            <language>en</language>
+            <name>x_441625_dranks_totals</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>josh</sys_created_by>
+            <sys_created_on>2021-08-03 18:52:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>josh</sys_updated_by>
+            <sys_updated_on>2021-08-03 18:52:34</sys_updated_on>
+            <value>irish</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Beer</dependent_value>
+            <element>drank_callout</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Lager</label>
+            <language>en</language>
+            <name>x_441625_dranks_totals</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>josh</sys_created_by>
+            <sys_created_on>2021-08-03 16:58:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>josh</sys_updated_by>
+            <sys_updated_on>2021-08-03 16:58:21</sys_updated_on>
+            <value>lager</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Beer</dependent_value>
+            <element>drank_callout</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pilsner</label>
+            <language>en</language>
+            <name>x_441625_dranks_totals</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>josh</sys_created_by>
+            <sys_created_on>2021-08-03 16:58:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>josh</sys_updated_by>
+            <sys_updated_on>2021-08-03 16:58:30</sys_updated_on>
+            <value>pils</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Whiskey</dependent_value>
+            <element>drank_callout</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Rye</label>
+            <language>en</language>
+            <name>x_441625_dranks_totals</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>josh</sys_created_by>
+            <sys_created_on>2021-08-03 18:52:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>josh</sys_updated_by>
+            <sys_updated_on>2021-08-03 18:52:47</sys_updated_on>
+            <value>rye</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Whiskey</dependent_value>
+            <element>drank_callout</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Scotch</label>
+            <language>en</language>
+            <name>x_441625_dranks_totals</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>josh</sys_created_by>
+            <sys_created_on>2021-08-03 18:51:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>josh</sys_updated_by>
+            <sys_updated_on>2021-08-03 18:52:03</sys_updated_on>
+            <value>scotch</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Beer</dependent_value>
+            <element>drank_callout</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sour</label>
+            <language>en</language>
+            <name>x_441625_dranks_totals</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>josh</sys_created_by>
+            <sys_created_on>2021-08-03 16:58:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>josh</sys_updated_by>
+            <sys_updated_on>2021-08-03 16:58:39</sys_updated_on>
+            <value>sour</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Beer</dependent_value>
+            <element>drank_callout</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Stout</label>
+            <language>en</language>
+            <name>x_441625_dranks_totals</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>josh</sys_created_by>
+            <sys_created_on>2021-08-03 16:56:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>josh</sys_updated_by>
+            <sys_updated_on>2021-08-03 16:56:39</sys_updated_on>
+            <value>stout</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>drank_callout</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Multi/All</label>
+            <language>en</language>
+            <name>x_441625_dranks_totals</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>josh</sys_created_by>
+            <sys_created_on>2021-08-03 16:58:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>josh</sys_updated_by>
+            <sys_updated_on>2021-08-03 17:14:03</sys_updated_on>
+            <value>all</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

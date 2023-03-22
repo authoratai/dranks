@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>none</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>clear values</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading || newValue === '') {
+		return;
+	}
+	
+	if (newValue == 'true') {
+		g_form.setValue('beer', false);
+		g_form.setValue('brandy_cognac', false);
+		g_form.setValue('gin', false);
+		g_form.setValue('hard_seltzer', false);
+		g_form.setValue('mead', false);
+		g_form.setValue('moonshine', false);
+		g_form.setValue('rum', false);
+		g_form.setValue('soju', false);
+		g_form.setValue('tequila', false);
+		g_form.setValue('vodka', false);
+		g_form.setValue('whisky', false);
+		g_form.setValue('wine', false);
+		g_form.setValue('wtf', false);
+	}
+
+}
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2021-05-20 15:24:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f410ab242f58f010f0e69bacf699b6d1</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>clear values</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Dranks" source="x_441625_dranks">768893e42fd4f010f0e69bacf699b6e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dranks">768893e42fd4f010f0e69bacf699b6e6</sys_scope>
+        <sys_update_name>sys_script_client_f410ab242f58f010f0e69bacf699b6d1</sys_update_name>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2021-05-20 15:36:09</sys_updated_on>
+        <table>x_441625_dranks_new_hire</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Dranks">768893e42fd4f010f0e69bacf699b6e6</application>
+        <file_path/>
+        <instance_id>06346385dbcf7b4042b321c4059619f2</instance_id>
+        <instance_name>dev90392</instance_name>
+        <name>sys_script_client_f410ab242f58f010f0e69bacf699b6d1</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;none&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;clear values&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading || newValue === '') {
+		return;
+	}
+	
+	if (newValue == 'true') {
+		g_form.setValue('beer', false);
+		g_form.setValue('brandy_cognac', false);
+		g_form.setValue('gin', false);
+		g_form.setValue('hard_seltzer', false);
+		g_form.setValue('mead', false);
+		g_form.setValue('moonshine', false);
+		g_form.setValue('rum', false);
+		g_form.setValue('soju', false);
+		g_form.setValue('tequila', false);
+		g_form.setValue('vodka', false);
+		g_form.setValue('whisky', false);
+		g_form.setValue('wine', false);
+		g_form.setValue('wtf', false);
+	}
+
+}
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;sean&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-05-20 15:24:32&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;f410ab242f58f010f0e69bacf699b6d1&lt;/sys_id&gt;&lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;&lt;sys_name&gt;clear values&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Dranks" source="x_441625_dranks"&gt;768893e42fd4f010f0e69bacf699b6e6&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Dranks"&gt;768893e42fd4f010f0e69bacf699b6e6&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_f410ab242f58f010f0e69bacf699b6d1&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;sean&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-05-20 15:36:09&lt;/sys_updated_on&gt;&lt;table&gt;x_441625_dranks_new_hire&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-118259825</payload_hash>
+        <record_name>clear values</record_name>
+        <reverted_from/>
+        <source>8b8893e42fd4f010f0e69bacf699b6e8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2021-05-20 15:36:09</sys_created_on>
+        <sys_id>0df22be42f58f010f0e69bacf699b633</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1798a6b76820000001</sys_recorded_at>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2021-05-20 15:36:09</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>05f2af64af58f0102ad82d34d0b41ee3</update_guid>
+        <update_guid_history>05f2af64af58f0102ad82d34d0b41ee3:-118259825,8b12eba44958f010751c1ae9bcc644b8:1645382315,8df1a7a4ac58f010fb0ff893284d0d49:-140176428,95c1ef642a58f010254f0c03747b255e:-1803740301,85716b241d58f010bd7d252857ed1a04:-577290204,b3516f649658f0107934b728c28b309d:1171050424,dc512764f858f01074bb8151fd8afa32:90568161,3bb027642758f0101e76e2dacb139844:306262209,0390a3646858f0106ad112ba0a1e980f:1171050424,3770e724de58f010aee7cfda9b67a57e:1268044490,36402b249058f010737235b08caab56f:-1315998684</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2021-07-28 13:39:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>8f20edc3b5b8481a9aa6bd2da9c752f9</sys_id>
+        <sys_metadata>f410ab242f58f010f0e69bacf699b6d1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>clear values</sys_name>
+        <sys_package display_value="Dranks" source="x_441625_dranks">768893e42fd4f010f0e69bacf699b6e6</sys_package>
+        <sys_parent display_value="">a0a8172c2f18f010f0e69bacf699b65e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Dranks">768893e42fd4f010f0e69bacf699b6e6</sys_scope>
+        <sys_scope_delete display_value="">3c5e5a672d994fb2b34040324c0d1c24</sys_scope_delete>
+        <sys_update_name>sys_script_client_f410ab242f58f010f0e69bacf699b6d1</sys_update_name>
+        <sys_update_version display_value="sys_script_client_f410ab242f58f010f0e69bacf699b6d1">0df22be42f58f010f0e69bacf699b633</sys_update_version>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2021-07-28 13:39:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

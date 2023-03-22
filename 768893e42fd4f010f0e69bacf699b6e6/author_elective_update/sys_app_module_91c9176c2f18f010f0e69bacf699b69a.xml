@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="dranks">95c9176c2f18f010f0e69bacf699b696</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>New Hires</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_441625_dranks_new_hire</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_441625_dranks.new_hire_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2021-05-20 14:56:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>91c9176c2f18f010f0e69bacf699b69a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Hires</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Dranks" source="x_441625_dranks">768893e42fd4f010f0e69bacf699b6e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dranks">768893e42fd4f010f0e69bacf699b6e6</sys_scope>
+        <sys_update_name>sys_app_module_91c9176c2f18f010f0e69bacf699b69a</sys_update_name>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2021-05-20 14:56:02</sys_updated_on>
+        <timeline_page/>
+        <title>New Hires</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Dranks">768893e42fd4f010f0e69bacf699b6e6</application>
+        <file_path/>
+        <instance_id>06346385dbcf7b4042b321c4059619f2</instance_id>
+        <instance_name>dev90392</instance_name>
+        <name>sys_app_module_91c9176c2f18f010f0e69bacf699b69a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="dranks">95c9176c2f18f010f0e69bacf699b696</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>New Hires</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_441625_dranks_new_hire</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_441625_dranks.new_hire_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>sean</sys_created_by><sys_created_on>2021-05-20 14:56:02</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>91c9176c2f18f010f0e69bacf699b69a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>New Hires</sys_name><sys_overrides/><sys_package display_value="Dranks" source="x_441625_dranks">768893e42fd4f010f0e69bacf699b6e6</sys_package><sys_policy/><sys_scope display_value="Dranks">768893e42fd4f010f0e69bacf699b6e6</sys_scope><sys_update_name>sys_app_module_91c9176c2f18f010f0e69bacf699b69a</sys_update_name><sys_updated_by>sean</sys_updated_by><sys_updated_on>2021-05-20 14:56:02</sys_updated_on><timeline_page/><title>New Hires</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-73282562</payload_hash>
+        <record_name>New Hires</record_name>
+        <reverted_from/>
+        <source>8b8893e42fd4f010f0e69bacf699b6e8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2021-05-20 14:56:02</sys_created_on>
+        <sys_id>d5c9176c2f18f010f0e69bacf699b69d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1798a46bd420000001</sys_recorded_at>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2021-05-20 14:56:02</sys_updated_on>
+        <type>Module</type>
+        <update_guid>ddc9176ce118f0104166709e793e519c</update_guid>
+        <update_guid_history>ddc9176ce118f0104166709e793e519c:-73282562</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="New Hires">38fd967e2f65b010f0e69bacf699b600</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2021-07-28 13:39:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>4cf6894931d74f3087b12449c0ea3640</sys_id>
+        <sys_metadata>91c9176c2f18f010f0e69bacf699b69a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Hires</sys_name>
+        <sys_package display_value="Dranks" source="x_441625_dranks">768893e42fd4f010f0e69bacf699b6e6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Dranks">768893e42fd4f010f0e69bacf699b6e6</sys_scope>
+        <sys_scope_delete display_value="">3c5e5a672d994fb2b34040324c0d1c24</sys_scope_delete>
+        <sys_update_name>sys_app_module_91c9176c2f18f010f0e69bacf699b69a</sys_update_name>
+        <sys_update_version display_value="sys_app_module_91c9176c2f18f010f0e69bacf699b69a">d5c9176c2f18f010f0e69bacf699b69d</sys_update_version>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2021-07-28 13:39:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

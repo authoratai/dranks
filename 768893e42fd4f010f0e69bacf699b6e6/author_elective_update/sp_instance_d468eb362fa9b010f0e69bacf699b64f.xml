@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>2</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">e23567b22fa9b010f0e69bacf699b6f0</sp_column>
+        <sp_widget/>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2021-07-28 19:04:40</sys_created_on>
+        <sys_id>d468eb362fa9b010f0e69bacf699b64f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Dranks" source="x_441625_dranks">768893e42fd4f010f0e69bacf699b6e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dranks">768893e42fd4f010f0e69bacf699b6e6</sys_scope>
+        <sys_update_name>sp_instance_d468eb362fa9b010f0e69bacf699b64f</sys_update_name>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2021-07-28 19:04:40</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=d468eb362fa9b010f0e69bacf699b64f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Dranks">768893e42fd4f010f0e69bacf699b6e6</application>
+        <file_path/>
+        <instance_id>06346385dbcf7b4042b321c4059619f2</instance_id>
+        <instance_name>dev90392</instance_name>
+        <name>sp_instance_d468eb362fa9b010f0e69bacf699b64f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>2</order><roles/><short_description/><size>md</size><sp_column display_value="1">e23567b22fa9b010f0e69bacf699b6f0</sp_column><sp_widget/><sys_class_name>sp_instance</sys_class_name><sys_created_by>sean</sys_created_by><sys_created_on>2021-07-28 19:04:40</sys_created_on><sys_id>d468eb362fa9b010f0e69bacf699b64f</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Dranks" source="x_441625_dranks">768893e42fd4f010f0e69bacf699b6e6</sys_package><sys_policy/><sys_scope display_value="Dranks">768893e42fd4f010f0e69bacf699b6e6</sys_scope><sys_update_name>sp_instance_d468eb362fa9b010f0e69bacf699b64f</sys_update_name><sys_updated_by>sean</sys_updated_by><sys_updated_on>2021-07-28 19:04:40</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=d468eb362fa9b010f0e69bacf699b64f"/></record_update>]]></payload>
+        <payload_hash>276591471</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>8b8893e42fd4f010f0e69bacf699b6e8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2021-07-28 19:06:37</sys_created_on>
+        <sys_id>b8d863b62fa9b010f0e69bacf699b6e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17aee82f5160000001</sys_recorded_at>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2021-07-28 19:06:37</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>d068eb360ba9b010c74f301c6eaf6e51</update_guid>
+        <update_guid_history>d068eb360ba9b010c74f301c6eaf6e51:567684779,d068eb360ba9b010c74f301c6eaf6e51:567684779</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">961ba73a2fa9b010f0e69bacf699b6f9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2021-07-28 19:16:33</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>00627b1621d042b38305bf4f8262cd21</sys_id>
+        <sys_metadata>d468eb362fa9b010f0e69bacf699b64f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Dranks" source="x_441625_dranks">768893e42fd4f010f0e69bacf699b6e6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Dranks">768893e42fd4f010f0e69bacf699b6e6</sys_scope>
+        <sys_scope_delete display_value="">3c5e5a672d994fb2b34040324c0d1c24</sys_scope_delete>
+        <sys_update_name>sp_instance_d468eb362fa9b010f0e69bacf699b64f</sys_update_name>
+        <sys_update_version display_value="sp_instance_d468eb362fa9b010f0e69bacf699b64f">b8d863b62fa9b010f0e69bacf699b6e0</sys_update_version>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2021-07-28 19:16:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

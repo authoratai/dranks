@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="DELETE">
+        <category>custom</category>
+        <client_script><![CDATA[function($timeout) {
+
+  var c = this;
+	var reportId = c.options.report_id || '';
+	c.rectangleId = c.widget.rectangle_id || c.data.rectangleId;
+
+	c.showTitle = (c.options.show_title === true || c.options.show_title === 'true');
+	c.title = c.options.title || '';
+
+	if (c.options.widget_parameters){
+		c.initialMessage = c.data.ch.i18n.building;
+		window.chartHelpers = window.chartHelpers || {};
+		$.extend(window.chartHelpers, c.data.ch);
+		$timeout(function(){
+			var targetEl = $("#report-widget-"+c.rectangleId);
+			embedReportById(targetEl, reportId);
+		});
+	}
+	else {
+		c.initialMessage = c.data.ch.i18n.selectReport;
+	}
+
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.report-widget-wrap {&#13;
+	background:#fff;&#13;
+  padding:15px;&#13;
+  margin: 0 0 15px 0;&#13;
+}&#13;
+&#13;
+.report-widget-title {&#13;
+	padding:0 0 15px;&#13;
+  font-weight:bold;&#13;
+  font-size: 14px;&#13;
+  margin-top: 0;&#13;
+  margin-bottom: 0;&#13;
+}&#13;
+&#13;
+.highcharts-container g.highcharts-button *,&#13;
+.highcharts-container image.hc-image {&#13;
+  transition: fill-opacity 0.3s linear, stroke-opacity 0.3s linear, opacity 0.3s linear;&#13;
+  fill-opacity: 0;&#13;
+  stroke-opacity: 0;&#13;
+  opacity:0;&#13;
+}&#13;
+&#13;
+.highcharts-container:hover g.highcharts-button *,&#13;
+.highcharts-container:hover image.hc-image {&#13;
+  fill-opacity: 1;&#13;
+  stroke-opacity: 1;&#13;
+  opacity:1;&#13;
+}&#13;
+&#13;
+.highcharts-legend-item span::after,&#13;
+.highcharts-legend-item::after {&#13;
+  content: "\200E";&#13;
+}&#13;
+&#13;
+table.wide .pivot_cell,&#13;
+table.wide .pivot_caption,&#13;
+table.wide .pivot_caption_dark {&#13;
+	padding: 3px 5px;&#13;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description>Widget for embedding reports on the Service Portal.</description>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Report v2</name>
+        <option_schema>[{"displayValue":"Report","name":"report_id","label":"Report","type":"reference","value":"sys_report","ed":{"reference":"sys_report"}},{"hint":"","name":"show_title","default_value":"true","label":"Show title","type":"boolean"}]</option_schema>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	options.report_id = options.report_id || '';
+	
+	if (options.report_id !== '') {
+		var reportGr = new GlideRecord('sys_report');
+		reportGr.get(options.report_id);
+		if (reportGr.canRead())
+			options.title = reportGr.getValue('title');
+	}
+	
+	
+
+		data.rectangleId = gs.generateGUID();
+		data.ch = chartHelpers;
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2021-07-28 19:03:04</sys_created_on>
+        <sys_id>f4082f362fa9b010f0e69bacf699b6f5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Report v2</sys_name>
+        <sys_package display_value="Dranks" source="x_441625_dranks">768893e42fd4f010f0e69bacf699b6e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dranks">768893e42fd4f010f0e69bacf699b6e6</sys_scope>
+        <sys_update_name>sp_widget_f4082f362fa9b010f0e69bacf699b6f5</sys_update_name>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2021-07-28 19:05:34</sys_updated_on>
+        <template><![CDATA[<div class="report-widget-wrap">
+
+	<h2 ng-if="c.showTitle" tabindex="0" id="{{'title-' + c.widget.rectangle_id }}" class="report-widget-title">{{c.title}}</h2>
+
+	<div id="report-widget-{{c.rectangleId}}">
+     {{::c.initialMessage}}
+  </div>
+</div>
+]]></template>
+    </sp_widget>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Dranks">768893e42fd4f010f0e69bacf699b6e6</application>
+        <file_path/>
+        <instance_id>06346385dbcf7b4042b321c4059619f2</instance_id>
+        <instance_name>dev90392</instance_name>
+        <name>sp_widget_f4082f362fa9b010f0e69bacf699b6f5</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_widget"&gt;&lt;sp_widget action="INSERT_OR_UPDATE"&gt;&lt;category&gt;custom&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function($timeout) {
+
+  var c = this;
+	var reportId = c.options.report_id || '';
+	c.rectangleId = c.widget.rectangle_id || c.data.rectangleId;
+
+	c.showTitle = (c.options.show_title === true || c.options.show_title === 'true');
+	c.title = c.options.title || '';
+
+	if (c.options.widget_parameters){
+		c.initialMessage = c.data.ch.i18n.building;
+		window.chartHelpers = window.chartHelpers || {};
+		$.extend(window.chartHelpers, c.data.ch);
+		$timeout(function(){
+			var targetEl = $("#report-widget-"+c.rectangleId);
+			embedReportById(targetEl, reportId);
+		});
+	}
+	else {
+		c.initialMessage = c.data.ch.i18n.selectReport;
+	}
+
+}]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css&gt;.report-widget-wrap {&amp;#13;
+	background:#fff;&amp;#13;
+  padding:15px;&amp;#13;
+  margin: 0 0 15px 0;&amp;#13;
+}&amp;#13;
+&amp;#13;
+.report-widget-title {&amp;#13;
+	padding:0 0 15px;&amp;#13;
+  font-weight:bold;&amp;#13;
+  font-size: 14px;&amp;#13;
+  margin-top: 0;&amp;#13;
+  margin-bottom: 0;&amp;#13;
+}&amp;#13;
+&amp;#13;
+.highcharts-container g.highcharts-button *,&amp;#13;
+.highcharts-container image.hc-image {&amp;#13;
+  transition: fill-opacity 0.3s linear, stroke-opacity 0.3s linear, opacity 0.3s linear;&amp;#13;
+  fill-opacity: 0;&amp;#13;
+  stroke-opacity: 0;&amp;#13;
+  opacity:0;&amp;#13;
+}&amp;#13;
+&amp;#13;
+.highcharts-container:hover g.highcharts-button *,&amp;#13;
+.highcharts-container:hover image.hc-image {&amp;#13;
+  fill-opacity: 1;&amp;#13;
+  stroke-opacity: 1;&amp;#13;
+  opacity:1;&amp;#13;
+}&amp;#13;
+&amp;#13;
+.highcharts-legend-item span::after,&amp;#13;
+.highcharts-legend-item::after {&amp;#13;
+  content: "\200E";&amp;#13;
+}&amp;#13;
+&amp;#13;
+table.wide .pivot_cell,&amp;#13;
+table.wide .pivot_caption,&amp;#13;
+table.wide .pivot_caption_dark {&amp;#13;
+	padding: 3px 5px;&amp;#13;
+}&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description&gt;Widget for embedding reports on the Service Portal.&lt;/description&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;true&lt;/has_preview&gt;&lt;id/&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link&gt;&lt;![CDATA[function link(scope, element, attrs, controller) {  }]]&gt;&lt;/link&gt;&lt;name&gt;Report v2&lt;/name&gt;&lt;option_schema&gt;[{"displayValue":"Report","name":"report_id","label":"Report","type":"reference","value":"sys_report","ed":{"reference":"sys_report"}},{"hint":"","name":"show_title","default_value":"true","label":"Show title","type":"boolean"}]&lt;/option_schema&gt;&lt;public&gt;true&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[(function() {
+	options.report_id = options.report_id || '';
+	
+	if (options.report_id !== '') {
+		var reportGr = new GlideRecord('sys_report');
+		reportGr.get(options.report_id);
+		if (reportGr.canRead())
+			options.title = reportGr.getValue('title');
+	}
+	
+	
+
+		data.rectangleId = gs.generateGUID();
+		data.ch = chartHelpers;
+})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;false&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;sean&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-07-28 19:03:04&lt;/sys_created_on&gt;&lt;sys_id&gt;f4082f362fa9b010f0e69bacf699b6f5&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Report v2&lt;/sys_name&gt;&lt;sys_package display_value="Dranks" source="x_441625_dranks"&gt;768893e42fd4f010f0e69bacf699b6e6&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Dranks"&gt;768893e42fd4f010f0e69bacf699b6e6&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_f4082f362fa9b010f0e69bacf699b6f5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;sean&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-07-28 19:05:34&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div class="report-widget-wrap"&gt;
+
+	&lt;h2 ng-if="c.showTitle" tabindex="0" id="{{'title-' + c.widget.rectangle_id }}" class="report-widget-title"&gt;{{c.title}}&lt;/h2&gt;
+
+	&lt;div id="report-widget-{{c.rectangleId}}"&gt;
+     {{::c.initialMessage}}
+  &lt;/div&gt;
+&lt;/div&gt;
+]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2092687249</payload_hash>
+        <record_name>Report v2</record_name>
+        <reverted_from/>
+        <source>8b8893e42fd4f010f0e69bacf699b6e8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2021-07-28 19:05:34</sys_created_on>
+        <sys_id>5198ab762fa9b010f0e69bacf699b638</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17aee81fcec0000001</sys_recorded_at>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2021-07-28 19:05:34</sys_updated_on>
+        <type>Widget</type>
+        <update_guid>1998ab7626a9b010d4a899b4ed053d37</update_guid>
+        <update_guid_history>1998ab7626a9b010d4a899b4ed053d37:2092687249,b6482b76c6a9b010fe14740fef5c94d6:-2013869618,74082f36c1a9b0107a84f94099008ef8:1737866822</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Report v2">fcd863b62fa9b010f0e69bacf699b6ee</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2021-07-28 19:06:38</sys_created_on>
+        <sys_db_object display_value="" name="sp_widget">sp_widget</sys_db_object>
+        <sys_id>56e016a28ec04938a8165d17bcd5ee90</sys_id>
+        <sys_metadata>f4082f362fa9b010f0e69bacf699b6f5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Report v2</sys_name>
+        <sys_package display_value="Dranks" source="x_441625_dranks">768893e42fd4f010f0e69bacf699b6e6</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Dranks">768893e42fd4f010f0e69bacf699b6e6</sys_scope>
+        <sys_scope_delete display_value="">3c5e5a672d994fb2b34040324c0d1c24</sys_scope_delete>
+        <sys_update_name>sp_widget_f4082f362fa9b010f0e69bacf699b6f5</sys_update_name>
+        <sys_update_version display_value="sp_widget_f4082f362fa9b010f0e69bacf699b6f5">5198ab762fa9b010f0e69bacf699b638</sys_update_version>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2021-07-28 19:06:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

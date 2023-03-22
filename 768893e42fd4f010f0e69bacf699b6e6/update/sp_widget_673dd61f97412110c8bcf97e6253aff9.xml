@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {
+	
+	var c = this;
+	
+	console.log('showbutton = ' + c.data.showButton)
+
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>home-button</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {
+  
+}]]></link>
+        <name>Home Button</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  
+	data.showButton = false;
+	data.param = $sp.getParameter('id');
+	if (data.param == 'services_status') data.showButton = true;
+	
+	$sp.log(JSON.stringify(data))
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2023-02-21 19:01:02</sys_created_on>
+        <sys_id>673dd61f97412110c8bcf97e6253aff9</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Home Button</sys_name>
+        <sys_package display_value="Dranks" source="x_441625_dranks">768893e42fd4f010f0e69bacf699b6e6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Dranks">768893e42fd4f010f0e69bacf699b6e6</sys_scope>
+        <sys_update_name>sp_widget_673dd61f97412110c8bcf97e6253aff9</sys_update_name>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2023-02-21 19:25:24</sys_updated_on>
+        <template><![CDATA[<div>
+	<button ng-if="c.data.showButton" class="btn btn-primary pull-right" type="button" onclick="window.location.href='esc?id=ec_pro_dashboard';">Return</button>
+</div>]]></template>
+    </sp_widget>
+</record_update>
